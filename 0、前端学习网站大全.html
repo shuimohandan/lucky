@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>
+        </title>
+        <style>
+            body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,img,div{margin:0;padding:0;border:0;}
+            body{background:#fff;color:#7d909e;font-size:16px; margin-top:5px;font-family:"微软雅黑";}
+            ul,ol{list-style-type:none;} select,input,img,select{vertical-align:middle;}
+            ul li a{text-decoration:none;} a{color:#7d909e;} /*a:link{color:#7d909e;}*/
+            a:visited{color:#7d909e;} a:hover,a:active,a:focus{color:#c00;text-decoration:underline;}
+            /**清除浮动**/ .clearfix {zoom: 1;} .clearfix {display:block;} .clearfix:before,.clearfix:after
+            {content:".";display:block;height:0;clear:both;visibility:hidden;}
+       		/**基础样式**/
+            .box{
+            	width:100%;
+            	background:url(17.jpg) ;
+            }
+            #tab{
+            	width:998px;
+            	text-align: center;
+            	margin: 0 auto;
+            	background: #F8F8F8;
+        	    border: 1px solid #d9d9d9;
+            }
+            #tab thead{
+            	width:1000px;
+            }
+            #tab thead tr{
+            	/*width:1198px;*/
+            }
+            #tab thead tr th{
+           		/*width:8%;
+            	overflow: hidden; 
+				text-overflow:ellipsis;  
+				white-space:nowrap; */
+           	}
+            #tab tbody{
+            	font-size: 16px;
+            	font-family: geneva;
+            	width:998px;
+            }
+            #tab tbody tr{
+            	/*width:1198px;*/
+            }
+            #tab tbody tr td{
+            	border: 1px dashed #E67330;
+            	
+            	/**文字溢出用省略号代替**/
+            	width:100px;
+            	overflow: hidden; 
+            	
+            }
+            #tab tbody tr td a{
+            	text-decoration: none;
+            	
+        
+            }
+            #tab tbody tr td a:hover{
+            	text-decoration: none;
+            	color: #01AAED;
+            }
+     
+        </style>
+    </head>
+    
+    <body>
+        <div class="box">
+			<table border='1' cellpadding='0' cellspacing='0' id="tab">
+	            <thead>
+	                <tr>
+	                    <th colspan="10"><!--跨列-->网站类型</th>
+	                </tr>
+	            </thead>
+	           <tbody>
+	           	<tr>
+	           		<td>技术官网</td>
+	           	</tr>
+	           	
+	           	<tr>
+	           		<td rowspan="2"><!--跨行--><a href="https://git-scm.com/book/zh/v2" target="_blank">git版本控制</a></td>
+	           		<td><a href="https://github.com/ArslanBilal/Git-Cheat-Sheet/blob/master/other-sheets/git-cheat-sheet-zh.md"target="_blank">git中文操作</a></td>
+	           		<td><a href="https://github.com/xirong/my-git/blob/master/git-workflow-tutorial.md"target="_blank">git简介</a></td>
+	           		<td><a href="http://www.css88.com/doc/underscore/#reduce" target="_blank">underscore.js手册</a></td>
+	           		<td><a href="http://www.runoob.com" target="_blank">菜鸟教程</a></td>
+	           		<td><a href="http://www.tuicool.com/articles/2uEjqmM" target="_blank">npm package.json</a></td>
+	           		<td><a href="http://www.bootcss.com/" target="_blank">bootstrap</a></td>
+	           		<td><a href="https://jquery.com/" target="_blank">jQuery</a></td>
+	           		<td><a href="https://www.mongodb.org/" target="_blank">mongodb</a></td>
+	           		<td><a href="http://www.w3cplus.com/"target="_blank">w3cplus</a></td>
+	           		
+	           	</tr>
+	           	<tr>
+	           		<td><a href="http://www.redis.cn/" target="_blank">redis</a></td>
+	           		<td><a href="http://showcase.ngnice.com/#/home/home" target="_blank">angularjs</a></td>
+	           		<td><a href="http://www.w3school.com.cn/css/" target="_blank">w3c教程网</a></td>
+	           		<td><a href="http://www.css88.com/" target="_blank">css88</a></td>
+	           		<td><a href="http://www.gruntjs.net/" target="_blank">grunt</a></td>
+	           		<td><a href="http://www.gulpjs.com.cn/" target="_blank">gulp</a></td>
+	           		<td><a href="https://nodejs.org/en/" target="_blank">nodejs</a></td>
+	           		<td><a href="http://reactjs.cn/" target="_blank">reactjs</a></td>
+	           		<td><a href="http://www.requirejs.cn/" target="_blank">requirejs</a></td>
+	           	</tr>
+	           	<tr>
+	           		<td><a href="http://fex.baidu.com/" target="_blank">百度插件库</a></td>
+	         		<td><a href="http://www.expressjs.com.cn/4x/api.html" target="_blank">express中文手册</a></td>
+   					<td><a href="http://www.layui.com/doc/modules/layer.html#type" target="_blank">layui</a></td>
+   					<td><a href="http://layer.layui.com/api.html#layer.open" target="_blank">layer</a></td>
+   					<td><a href="http://www.w3cfuns.com/" target="_blank">前端插件网</a></td>
+	           		<td><a href="https://www.npmjs.com/" target="_blank">npm总站</a></td>
+	           		<td><a href="https://segmentfault.com/a/1190000000357534#articleHeader23"target="_blank">jade文档</a></td>
+   					<td><a href="http://www.nodeclass.com/api/jade.html#comments" target="_blank">jade国外文档</a></td>
+   					<td><a href="https://segmentfault.com/t/javascript" target="_blank">js学习论坛</a></td>
+	           		<td><a href="http://fis.baidu.com/" target="_blank">webpack</a></td>
+	           	</tr>
+	           	<tr>
+	           		<td><a href="http://echarts.baidu.com/option.html#title" target="_blank">echars</a></td>
+           			<td><a href="http://www.zhufengpeixun.cn/doc/html/%E9%A6%96%E9%A1%B5.html" target="_blank">珠峰课件</a></td>
+   					<td><a href="http://ueditor.baidu.com/website/" target="_blank">ueditor</a></td>
+					<td><a href="http://www.jiathis.com/" target="_blank">加一些分享图标什么的</a></td>
+       				<td><a href="http://www.bshare.cn/help/installAction" target="_blank">bshare分享插件</a></td>
+       				<td><a href="http://duoshuo.com/" target="_blank">多说评论系统</a></td>
+	           	</tr>
+	           	<tr>
+	           		<th>大牛博客</th>
+	           	</tr>
+	           	<tr>
+	           		<td><a href="http://www.zhangxinxu.com/" target="_blank">张鑫旭</a></td>
+	           		<td><a href="http://www.ruanyifeng.com" target="_blank">阮一峰</a></td>
+	           		<td><a href="http://www.liaoxuefeng.com"target="_blank">廖雪峰</a></td>
+	           		<td><a href="http://www.cnblogs.com/lhb25/" target="_blank">梦想天空</a></td>
+	           		<td><a href="http://www.cnblogs.com/jihua/" target="_blank">计划</a></td>
+	           		<td><a href="https://github.com/zhufengpeixun" target="_blank">珠峰培训的github</a></td>
+	           		<td><a href="https://github.com/16666/react-native-guide/blob/master/README.md" target="_blank">react教程</a></td>
+	           		<td><a href="http://cnodejs.org/getstart" target="_blank">node教程</a></td>
+	           		<td><a href="https://github.com/alsotang/node-lessons" target="_blank">node包初学</a></td>
+           			<td><a href="http://www.cnblogs.com/PeunZhang/p/3407453.html#question_3" target="_blank">移动端资源</a></td>
+	           	</tr>	
+           	 	<tr>
+	           		<th>jq素材以及特效</th>
+	           	</tr>
+	           	<tr>
+	           		<td><a href="http://www.jb51.net/" target="_blank">脚本之家</a></td>
+	           		<td><a href="http://sc.chinaz.com/tag_jiaoben/jquery.html" target="_blank">站长素材</a></td>
+	           		<td><a href="http://www.lanrentuku.com/" target="_blank">懒人图库</a></td>
+	           		<td><a href="http://www.dowebok.com" target="_blank">dowebok</a></td>
+           			<td><a href="http://www.superslide2.com/" target="_blank">特效网站</a></td>
+	           		<td><a href="http://www.xwcms.net/" target="_blank">xwcms</a></td>
+	           		<td><a href="http://www.17sucai.com/" target="_blank">17sucai</a></td>
+	           		<td><a href="http://www.jq22.com/" target="_blank">jq22</a></td>
+	           		<td><a href="http://www.csrcode.cn/" target="_blank">csrcode</a></td>
+	        
+	           	</tr>
+	           	<tr>
+           			<th>论坛新闻类网站</th>
+           		</tr>
+           		<tr>
+           			<td><a href=" https://segmentfault.com" target="_blank">segmentfault</a></td>
+           			<td><a href="http://gold.xitu.io/welcome/frontend" target="_blank">掘金网站</a></td>
+           			<td><a href="http://v2ex.com/" target="_blank">技术论坛</a></td>
+           			<td><a href="http://www.html-js.com" target="_blank">前端乱炖</a></td>
+           			
+           			
+	           	</tr>
+           		<tr>
+           			<th>优秀文章以及博客链接</th>
+           		</tr>
+           		<tr>
+           			<td><a href="http://www.nowcoder.com" target="_blank">牛客前端</a></td>
+           		
+           			<td><a href="http://www.jq22.com/jquery-info1425" target="_blank">滚动条</a></td>
+           			<td><a href=" https://github.com/kujian/jQuery-slimScroll/blob/master/examples/multiple-elements.html"target="_blank">滚动条插件源码</a></td>
+           			<td><a href="https://github.com/rochal/jQuery-slimScroll" target="_blank">滚动条源码</a></td>
+           			<td><a href="https://github.com/madrobby/zepto/blob/master/src/touch.js" target="_blank">touch.js</a></td>
+           			<td><a href="http://www.open-open.com/lib/view/open1484548693284.html" target="_blank">2017JS框架</a></td>
+   					<td><a href="http://www.jq22.com/jquery-info1059" target="_blank">laydate</a></td>
+   					<td><a href="http://www.jb51.net/article/60781.htm" target="_blank">node.js集成百度UE编辑器</a></td>
+   					<td><a href="http://www.jb51.net/css/201882.html" target="_blank">兼容当前五大浏览器的渐变颜色背景gradient的写法</a></td>
+           		</tr>
+				<tr>
+					<td><a href="http://blog.csdn.net/yaya_soft/article/details/8696779" target="_blank">哈希函数</a></td>
+					<td><a href="http://www.jb51.net/article/44557.htm" target="_blank">jquery.cookie如何使用</a></td>
+					<td><a href="http://javascript.ruanyifeng.com/nodejs/packagejson.html" target="_blank">package.json文件</a></td>
+					<td><a href="http://jingyan.baidu.com/article/63f236281a8f580208ab3d0f.html"target="_blank">关机命令</a></td>
+					<td><a href="http://blog.csdn.net/xh16319/article/details/9987847" target="_blank">jqvaluedate</a></td>
+					<td><a href="http://www.w3cplus.com/html/jade.html" target="_blank">jade学习</a></td>
+					<td><a href="https://segmentfault.com/a/1190000000357534#articleHeader23" target="_blank">jade学习</a></td>
+					
+					
+				</tr>
+           		<tr>
+           			<th>工具类网站</th>
+           		</tr>
+       			<tr>
+       				<td><a href="http://www.css88.com/jqapi-1.9/old.html" target="_blank">jq手册</a></td>
+       				<td><a href="http://jquery.cuishifeng.cn/jQuery.Ajax.html" target="_blank">jq手册</a></td>
+			        <td><a href="http://tool.css-js.com/" target="_blank">js压缩代码工具</a></td>
+       				<td><a href="http://tool.lanrentuku.com/cssformat/" target="_blank">CSS格式化代码</a></td>
+       				<td><a href="http://http://fanyi.baidu.com/" target="_blank">百度翻译</a></td>
+       				<td><a href="http://qqe2.com/" target="_blank">json格式化</a></td>
+       				<td><a href="http://cli.im/text " target="_blank">二维码生成网站</a></td>
+       				<td><a href="https://tinypng.com/" target="_blank">托尼png压缩</a></td>
+       				<td><a href="http://html2jade.org/" target="_blank">html-jade</a></td>
+       			</tr>
+       			<tr>
+       				<td><a href="http://tool.c7sky.com/webcolor/#hue_6" target="_blank">配色网站</a></td>
+   					<td><a href="http://idea.lanyus.com/" target="_blank">webstorm激活</a></td>
+   					<td><a href="https://tower.im/teams/38f8fab68c4c4eec8f7b691549d94ea9/projects/"target="_blank">tower任务管理</a></td>
+   					<td><a href="http://103.31.151.220:9999/dashboard/projects" target="_blank">gitlab项目管理</a></td>
+   					<td><a href="http://www.nodercms.com/" target="_blank">nodecmc</a></td>
+   					<td><a href="" target="_blank"></a></td>
+					<td><a href="" target="_blank"></a></td>
+					<td><a href="" target="_blank"></a></td>
+   					
+       			</tr
+   				
+				</tbody>
+	        </table>
+        </div>
+      
+    </body>
+
+</html>
